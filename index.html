@@ -25,6 +25,7 @@
             <h1 id="title">The World of <br> Charles & Ray Emaes</h1>
             <span id="date">30 September 2021</span>
             <div id="dashLogo"></div>
+            <p class="category"><span>Category: Furniture</span><br><span>Last Modify: 01 november 2024</span></p>
             <p id="firstP">With a grand sense of adventure, Charles and Ray Eames turned their curiosity and boundless enthusiasm into careers that established them as a truly great husband and wife design team. Their unique synergy led to a whole new look in furniture, clean and modern. Playful and functional. Sleek, sophisticated and beautifully simple. That was and is the "Eames look".</p>
             <img src="./Docs/dsw-eames-dining-chair.jpg" alt="overall image" id="firstImg">
             <p id="secondP">That look and their relationship with Herman Miller started with moulded plywood chairs in the late 1940s and includes the world-renowned Eames lounge chair, now in the permanent collection at the Museum of Modern Art in New York.</p>
@@ -53,7 +54,7 @@
         </div>
         <div class="commentSection">
             <form action="">
-                <input type="text" placeholder="Write a comment...">
+                <input id="commentInput" type="text" placeholder="Write a comment...">
             </form>
             <div class="commentBtns">
                 <div class="commentBtnsLeftSide">
@@ -82,6 +83,7 @@
                     <img src="./Docs/rightarrow.png" alt="">
                 </div>
                 <span id="rightFooter-Bot">The Corner House in <br> Kitashirakawa</span>
+                <!-- <div id="visits">Loading...</div> -->
             </div>
         </div>
     </Footer>
@@ -93,6 +95,14 @@
 
 
 
+
     <script src="./main.js"></script>
+    <!-- <script>
+        function cb(response) {
+            document.getElementById('visits').innerText = response.value;
+        }
+    </script>
+    <script async src="https://api.countapi.xyz/hit/127.0.0.1:5500/meta.json /index.html/visits?callback=cb"></script> -->
+    
 </body>
 </html>
