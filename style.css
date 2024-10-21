@@ -37,6 +37,8 @@ a, span ,h1, p {
 
 .header a {
     color: #757575;
+    font-weight: 600;
+    user-select: none;
 }
 
 .authorInformation{
@@ -46,6 +48,7 @@ a, span ,h1, p {
     flex-direction: column;
     margin-top: 50px;
     margin-bottom: 30px;
+    user-select: none;
 }
 
 
@@ -229,6 +232,7 @@ form input {
     padding-bottom: 40x;
     padding-left: 16px;
     padding-bottom: 70px;
+    user-select: none;
 }
 
 
@@ -322,6 +326,7 @@ footer {
     z-index: 2;
     max-width: 2048px;
     margin: auto;
+    user-select: none;
 }
 
 .insideFooter {
